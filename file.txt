@@ -7,3 +7,12 @@ ooooh cool a third line, wonder what it says
 im so meta even this acronym
 
 bye world
+
+last line was a lie, just like that cake i was promised. also heres the steps:
+git init //initialize
+git add .//add stuff to staging
+git commit -m "comment"//commit the things that are in staging
+git log//shows commits
+git status//shows status(staged, unstaged,commited,uncommited)
+git config user.name//changes username
+git config user.email//changes email
