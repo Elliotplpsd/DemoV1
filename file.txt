@@ -21,3 +21,5 @@ git checkout branchname//jumps to selected branch
 git branch//shows all branch names. the branch with the * is the one you're on
 git branch newname//adds a new branch with the name
 git branch -m newname//renames the branch you're in
+
+git reset --hard branchcode//deletes every commit that came after the desired commit. the branchcode looks like "d84df22d5208e0c864cac669329e51cf7d6c52a4" or something like that
