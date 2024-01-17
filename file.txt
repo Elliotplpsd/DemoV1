@@ -16,3 +16,8 @@ git log//shows commits
 git status//shows status(staged, unstaged,commited,uncommited)
 git config user.name//changes username
 git config user.email//changes email
+
+git checkout branchname//jumps to selected branch
+git branch//shows all branch names. the branch with the * is the one you're on
+git branch newname//adds a new branch with the name
+git branch -m newname//renames the branch you're in
