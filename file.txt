@@ -23,3 +23,7 @@ git branch newname//adds a new branch with the name
 git branch -m newname//renames the branch you're in
 
 git reset --hard branchcode//deletes every commit that came after the desired commit. the branchcode looks like "d84df22d5208e0c864cac669329e51cf7d6c52a4" or something like that
+
+git remote add nameofremote link //adds remote repository location
+git remote rm nameofremote // removes a remote repository
+git push -u nameofremote branchname //pushes given branch to given remote repository
